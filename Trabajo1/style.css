@@ -1,0 +1,28 @@
+.full-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+html, body {
+    background-color: darkslategrey;
+    padding: 5%;
+}
+
+button{
+    background-color: darkgreen;
+    border-color:darkgreen;
+    width: 250px;
+}
+
+label{
+    width: 250px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+

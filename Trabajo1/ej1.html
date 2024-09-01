@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML + Javascript</title>
+</head>
+<body>
+    <main class="full-container">
+    <h1>Formulario</h1>
+    <form>
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" maxlength="12" required/>
+        </div>
+        <div>
+            <label for="lastName">Apellido:</label>
+            <input type="text" id="lastName" name="lastName" maxlength="12" required/>
+        </div>
+        <div class="center">
+            <button  type="submit">Guardar</button>
+        </div>
+    </form>
+
+    <h1>Lista de Usuarios</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+        </thead>
+        <tbody id="student_table"></tbody>
+
+
+    </table>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
